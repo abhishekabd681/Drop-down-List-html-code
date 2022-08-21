@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dropdownmenu
+{
+    width: 90%;
+    height: 60px;
+    margin: 0px auto;
+
+
+}
+.dropdownmenu ul
+{
+    padding: 0px;
+}
+
+.dropdownmenu ul li
+{
+    float: left;
+    background-color: blue;
+    color: red;
+    width: 180px;
+    height: 30px;
+    list-style: none;
+    text-align: center;  
+    padding-top: 6px;
+
+    
+}
+.dropdownmenu ul li ul
+{
+    display: none;
+}
+.dropdownmenu ul li:hover > ul
+{
+    display: block;
+    
+}
+.dropdownmenu ul li:hover
+{
+    opacity: 1;
+    background-color: red;
+    color: black;
+}
+.dropdownmenu ul li ul li{
+    position: relative;
+}
+.dropdownmenu ul li ul li ul{
+    position: absolute;
+    left: 180px;
+    top: 0px;
+}
